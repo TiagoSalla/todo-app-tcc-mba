@@ -99,13 +99,3 @@ static var enableE4_NeverEmits: Bool = true
 
 **Gatilho:** abrir o app
 **Sintoma:** loading infinito em ambos — sem crash, sem log
-
----
-
-## Regras gerais
-
-- Nunca ative duas flags ao mesmo tempo
-- Limpe o console (Cmd+K) antes de cada sessão
-- Reinicie o app entre iterações (Cmd+. → Cmd+R)
-- Para E1 e E3: aguarde 1–2 min após o crash para o Crashlytics processar
-- Tire screenshot do Crashlytics (E1, E3) e do console (E2, E4) como evidência
